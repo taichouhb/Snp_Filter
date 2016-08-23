@@ -1,0 +1,14 @@
+So Far steps used to install fidlr: 
+
+In console: 
+> setRepositories()        ->     1 
+> install.packages("devtools")
+>  #Importing the devtools in current R-repl instance 
+> library("devtools")
+> install.github("thertrader/fidlr")
+ ------ Error Proceeds here: 
+           Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+            there is no package called 'htmltools'
+          ERROR: lazy loading failed for package 'fidlr'
+          * removing 'C:/Users/Ben/Documents/R/win-library/3.2/fidlr'
+          Error: Command failed (1)
