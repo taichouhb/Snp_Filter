@@ -12,3 +12,9 @@ In console:
           ERROR: lazy loading failed for package 'fidlr'
           * removing 'C:/Users/Ben/Documents/R/win-library/3.2/fidlr'
           Error: Command failed (1)
+
+
+> install.packages("tseries")
+> install.packages("quantmod")
+> install.packages("XML")
+> install.packages("RCurl")
